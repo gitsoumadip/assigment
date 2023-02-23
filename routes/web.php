@@ -25,9 +25,6 @@ Route::post('/update-test',[TestController::class,'updateData'])->name('test.upd
 Route::post('/delete-test',[TestController::class,'deleteData'])->name('test.deleteData');
 
 
-Route::get('/edit/{id}',[TestController::class,'editData'])->name('edit');
-// Route::post('/update-test',[TestController::class,'updateData'])->name('test.updateData');
-// Route::post('/delete-test',[TestController::class,'deleteData'])->name('test.deleteData');
 
 
 
